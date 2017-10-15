@@ -1,0 +1,13 @@
+components:
+  schemas:
+    First:
+      type: object 
+      properties:
+        foo:
+          type: string
+
+    Second:
+      type: object
+      properties:
+        bar:
+          type: string
