@@ -13,12 +13,12 @@ paths:
           content:
             application/json:
               schema:
-                $ref: 'schemas.yaml#/components/schemas/First'
+                $ref: '#/components/schemas/First'
         '400':
           content:
             application/json:
               schema:
-                $ref: 'schemas.yaml#/components/schemas/First'
+                $ref: '#/components/schemas/First'
 
 components:
   schemas:
